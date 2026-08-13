@@ -13,17 +13,19 @@ This skill finds the root; it does not design the route. Stop after the user con
 
 Handle exactly **one cognitive decision per turn**. Give your recommended answer and why, then wait. A factual investigation is your work, not another decision for the user.
 
+Before asking the first question, orient from what is already available: read referenced files and paths, inspect the relevant code, configuration, tests, documentation, and conversation history, and check primary sources when a load-bearing fact requires them. Infer what this evidence establishes about the trigger, current behavior, and impact. Ask the user only for firsthand experience, priorities, decisions, or facts that remain unavailable after this legwork; never ask them to restate something the environment can answer.
+
 When the user adds information instead of answering, incorporate it and return to the still-open decision. Never treat several local agreements as approval of the assembled root.
 
-When invoked automatically, briefly name the solution already embedded in the request, state why choosing it prematurely could be costly, and ask the first question below. If the user says the route is settled or asks you to proceed directly, exit the interview.
+When invoked automatically, briefly name the solution already embedded in the request and state why choosing it prematurely could be costly. After orienting, ask the first unresolved question below. If the user says the route is settled or asks you to proceed directly, exit the interview.
 
 ## 1. Recover the trigger
 
-Start with the concrete event or recurring situation that existed before the proposed solution:
+Recover from the conversation and environment the concrete event or recurring situation that existed before the proposed solution. If it remains unknown after orientation, ask:
 
 > Before you thought of this solution, what happened or what did you observe that made the current situation need to change?
 
-Separate four things as they emerge: firsthand observation, interpretation of its cause, experienced or expected impact, and proposed solution. Ask about only one unresolved distinction at a time.
+Separate four things as they emerge: firsthand observation, interpretation of its cause, experienced or expected impact, and proposed solution. Ask about only one unresolved distinction at a time, and only when the distinction cannot be settled from available evidence.
 
 This step is complete when the observed situation and its impact are concrete enough that their load-bearing facts can be investigated.
 
