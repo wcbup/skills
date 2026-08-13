@@ -75,7 +75,7 @@ Let the user choose the level. Recommend stopping at the first **minimum testabl
 
 For each proposed condition, run the **missing test**, one condition per turn:
 
-> If a result lacked this condition but fully satisfied the motive, would the problem still be solved?
+> If every other part of the current root were satisfied but this condition were absent, would you still consider the original problem solved?
 
 Keep the condition when its absence leaves a real failure for the user. Otherwise treat it as a route or preference. Explain what simpler options the condition excludes and give your recommendation before asking the user.
 
