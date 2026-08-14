@@ -1,6 +1,6 @@
 ---
 name: single-threaded-learning
-description: Teach one thread at a time when the user explicitly asks for a step-by-step explanation, asks to cover one thing at a time, or asks not to be overwhelmed.
+description: Single-threaded concept learning. Use when the user explicitly asks to understand a complex topic step by step or says an explanation is overwhelming.
 ---
 
 # Single-threaded Learning
