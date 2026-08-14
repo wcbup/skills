@@ -24,6 +24,8 @@ This step is complete when the learner's goal and the first question to resolve 
 
 ## 2. Add one understanding
 
+Before introducing a new core concept, make clear why the learner needs it by connecting it to a concrete problem, limitation, or capability the learner already understands. Use only enough motivation to make the concept’s purpose clear. If the active thread has already established that purpose, do not repeat it.
+
 Each turn establishes one core understanding. Use as much explanation as it needs. Principle, example, diagram, or code may appear together when they all clarify that same understanding.
 
 An **open loop** is something the learner must still understand for the current explanation to make sense: an unexplained term, an unclear component role, a missing causal step, or an opened branch or exception. Immediately settled terms, optional example details, and simple previews are not open loops.
